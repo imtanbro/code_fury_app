@@ -1,3 +1,4 @@
+import 'package:codefuryapp/Employee/Screens/Registration.dart';
 import 'package:codefuryapp/Service/Login/login.dart';
 import 'package:flutter/material.dart';
 import 'screens/home_screens.dart';
@@ -12,7 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+
       home: NavigationScreen(),
+
     );
   }
 }
