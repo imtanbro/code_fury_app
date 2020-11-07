@@ -43,8 +43,6 @@ class ApplicantDetail extends StatelessWidget {
               ),
               Container(
                 padding: EdgeInsets.all(20),
-                height: MediaQuery.of(context).size.height,
-                width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Colors.white

@@ -11,8 +11,12 @@ class NavigationScreen extends StatefulWidget {
   @override
   _NavigationScreenState createState() => _NavigationScreenState();
 }
-List <Widget> currWid =[Applicants(),Job(),MyProfile()];
-int currIndex =1;
+List <Widget> currWid = [
+  Applicants(),
+  Job(),
+  MyProfile(),
+];
+int currIndex =0;
 class _NavigationScreenState extends State<NavigationScreen> {
 
   @override
