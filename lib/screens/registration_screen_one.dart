@@ -311,6 +311,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> with TickerProv
                                                                         ),
                                                                       ),
                                                                       onPressed: () {
+                                                                        //Employer
                                                                         Navigator.pop(context);
                                                                         Navigator.pop(context);
                                                                         Navigator.push(
