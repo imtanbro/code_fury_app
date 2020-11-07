@@ -105,6 +105,11 @@ class ApplicantDetail extends StatelessWidget {
                           )
                         ],
                       ) ,
+                    ),
+                    Column(
+                      children: [
+                        //additional content
+                      ],
                     )
 
                   ],
