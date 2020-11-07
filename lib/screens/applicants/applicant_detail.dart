@@ -37,31 +37,7 @@ class ApplicantDetail extends StatelessWidget {
                   ),
                 )
             ),
-            Positioned(
-              top: 100,
-                child: Container(
-                  padding: EdgeInsets.all(20),
-                  height:MediaQuery.of(context).size.height ,
-                  width: MediaQuery.of(context).size.width,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    color: Colors.white,
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        'Applicant Information',
-                        style: TextStyle(
-                            color: Colors.black,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold
-                        ),
-                      ),
-                    ],
-                  ),
-                )
-            )
+            
           ],
         ),
       ),
