@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:codefuryapp/screens/applicants/applicant_detail.dart';
+import 'package:codefuryapp/Employers/applicants/applicant_detail.dart';
 class CardModel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

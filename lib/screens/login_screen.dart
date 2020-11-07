@@ -1,7 +1,7 @@
 import 'package:codefuryapp/Service/authentication.dart';
 import 'package:codefuryapp/Service/providers/custom_user.dart';
 import 'package:codefuryapp/components/error_alert_dialog.dart';
-import 'package:codefuryapp/screens/home_screens.dart';
+import 'package:codefuryapp/Employers/home_screens.dart';
 import 'package:codefuryapp/screens/registration_screen_one.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
