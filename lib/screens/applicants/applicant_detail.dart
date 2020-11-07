@@ -8,7 +8,7 @@ class ApplicantDetail extends StatelessWidget {
         child: Stack(
           children: [
             Container(
-              height: 200,
+              height: MediaQuery.of(context).size.width,
               width: MediaQuery.of(context).size.width,
               color: Colors.blue,
             ),
@@ -37,7 +37,11 @@ class ApplicantDetail extends StatelessWidget {
                   ),
                 )
             ),
-            
+            Positioned(
+              top: 200,
+              child: Container(),
+            )
+
           ],
         ),
       ),
