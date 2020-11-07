@@ -55,7 +55,7 @@ class _RegisterState extends State<Register> {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: SingleChildScrollView(
-                  child: Column(
+          child: Column(
             children: [
               Form(
                   key: _formKey,
@@ -268,9 +268,9 @@ class _RegisterState extends State<Register> {
             print(pan);
 
             Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => Home()));
+                context,
+                MaterialPageRoute(
+                    builder: (context) => Home()));
 
             // context
             //     .read<AuthService>()
