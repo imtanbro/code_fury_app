@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "838979705417",
+    "firebase_url": "https://hackathon-699b4.firebaseio.com",
+    "project_id": "hackathon-699b4",
+    "storage_bucket": "hackathon-699b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838979705417:android:c0bc63c7469f79f9207d98",
+        "android_client_info": {
+          "package_name": "com.example.codefuryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838979705417-v9jthl18uga0clm2tvsmkslceu3m92tq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_NJ52aCnIGUBKAMO7tTG21dBo3Vkx6Qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838979705417-v9jthl18uga0clm2tvsmkslceu3m92tq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
