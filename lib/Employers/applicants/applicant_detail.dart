@@ -9,40 +9,36 @@ class ApplicantDetail extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Positioned(
-                top: 20,
-                  child: GestureDetector(
-                    onTap: (){
-                      Navigator.pop(context);
-                    },
-                    child: Container(
-                      child: Row(
-                        children: [
-                          IconButton(
-                            icon: Icon(
-                      Icons.arrow_back_ios,
+              GestureDetector(
+                onTap: (){
+                  Navigator.pop(context);
+                },
+                child: Row(
+                  children: [
+                    Container(
+                      child: IconButton(icon: Icon(
+                          Icons.keyboard_arrow_left,
                         color: Colors.white,
-                      ),
-                            onPressed: (){
-                              Navigator.pop(context);
-                            },
-                          ),
-                          Text('Profile',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30,
-                            ),
-                          )
-                        ],
-                      ),
+                        size: 30,
+                      ), onPressed: null),
                     ),
-                  )
+                    Text('Applicants',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25,
+                      ),
+                    )
+                  ],
+                ),
               ),
               SizedBox(
                 height: 75,
               ),
+
               Container(
                 padding: EdgeInsets.all(20),
+                height: MediaQuery.of(context).size.height,
+                width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Colors.white
@@ -53,7 +49,7 @@ class ApplicantDetail extends StatelessWidget {
                     Text('Applicant Profile',
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 30,
                         fontWeight: FontWeight.bold
                       ),
                     ),
@@ -77,12 +73,15 @@ class ApplicantDetail extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  'FirstName LastName',
+                                  'FirstName  LastName',
                                     style: TextStyle(
-                                        fontSize: 15,
+                                        fontSize: 20,
                                         fontWeight: FontWeight.bold
                                     )
 
+                                ),
+                                SizedBox(
+                                  height: 10,
                                 ),
                                 Text(
                                   'phone no. 5455165165165',
@@ -91,13 +90,19 @@ class ApplicantDetail extends StatelessWidget {
                                         fontWeight: FontWeight.bold
                                     )
                                 ),
+                                SizedBox(
+                                  height: 10,
+                                ),
                                 Text(
                                     'emai id :Oratahjfhjafh@fhdjh.com',
                                     style: TextStyle(
                                         fontSize: 15,
                                         fontWeight: FontWeight.bold
                                     )
-                                )
+                                ),
+                                SizedBox(
+                                  height: 10,
+                                ),
                               ],
                             ),
                           )

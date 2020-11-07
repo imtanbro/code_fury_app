@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'my_profile/company_home.dart';
 
 class MyProfile extends StatelessWidget {
   @override
@@ -6,13 +7,14 @@ class MyProfile extends StatelessWidget {
     return Container(
       child:Scaffold(
         appBar: AppBar(
-          title: Text('Profile',
+          title: Text('My Profile',
             style: TextStyle(
                 color: Colors.white
             ),
           ) ,
           backgroundColor: Colors.blue,
         ),
+        body: MyProfileHome(),
       ),
     );
   }
