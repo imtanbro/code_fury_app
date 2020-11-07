@@ -1,18 +1,8 @@
-import 'package:codefuryapp/Service/Login/login.dart';
+import 'package:codefuryapp/screens/inital_page.dart';
 import 'package:flutter/material.dart';
-import 'screens/home_screens.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(InitialState());
 }
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      home: NavigationScreen(),
-    );
-  }
-}
+

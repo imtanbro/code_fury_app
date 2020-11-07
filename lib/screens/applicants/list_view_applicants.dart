@@ -6,8 +6,7 @@ class ListViewApplicants extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView.builder(
       itemBuilder: (context,index){
-        return CardModel(
-        );
+        return CardModel();
       },
       itemCount:10 ,
     );
