@@ -3,7 +3,7 @@ import 'package:codefuryapp/Service/login_activity_database.dart';
 import 'package:codefuryapp/Service/providers/custom_user.dart';
 import 'package:codefuryapp/Service/user_services.dart';
 import 'package:codefuryapp/components/error_alert_dialog.dart';
-import 'package:codefuryapp/screens/home_screens.dart';
+import 'package:codefuryapp/Employers/home_screens.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';

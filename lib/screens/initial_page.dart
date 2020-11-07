@@ -1,7 +1,7 @@
 import 'package:codefuryapp/Service/login_activity_database.dart';
 import 'package:codefuryapp/Service/providers/custom_user.dart';
 import 'package:codefuryapp/Service/user_services.dart';
-import 'package:codefuryapp/screens/home_screens.dart';
+import 'package:codefuryapp/Employers/home_screens.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
