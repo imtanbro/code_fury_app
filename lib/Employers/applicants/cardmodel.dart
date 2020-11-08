@@ -16,13 +16,29 @@ class CardModel extends StatelessWidget {
             leading: CircleAvatar(
               child: Icon(Icons.supervised_user_circle) ,
             ),
-            title: Text('FirstName LastName'),
+            title: Text('FirstName LastName',
+                style: TextStyle(
+                  fontSize: 20,
+                )
+            ),
             subtitle: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Phone Number : 9876543210') ,
-                Text('State : Maharashtra '),
-                Text('Experience : 4')
+                Text('Phone Number : 9876543210',
+                    style: TextStyle(
+                      fontSize: 20,
+                    )
+                ) ,
+                Text('State : Maharashtra ',
+                    style: TextStyle(
+                      fontSize: 20,
+                    )
+                ),
+                Text('Experience : 4',
+                    style: TextStyle(
+                      fontSize: 20,
+                    )
+                )
               ],
             ),
           ),
