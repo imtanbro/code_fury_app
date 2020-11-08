@@ -1,3 +1,4 @@
+import 'package:codefuryapp/Employee/Screens/Profile/editprofile.dart';
 import 'package:flutter/material.dart';
 
 class ProfileApplicant extends StatefulWidget {
@@ -14,10 +15,16 @@ class _ProfileApplicantState extends State<ProfileApplicant> {
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 10),
-            child: Icon(Icons.edit),
+            child: GestureDetector(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => EditRegister()));
+                },
+                child: Icon(Icons.edit)),
           ),
-        ],),
-          body: Container(
+        ],
+      ),
+      body: Container(
         padding: EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,10 +43,9 @@ class _ProfileApplicantState extends State<ProfileApplicant> {
                   'Name',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold ,
-                    color: Colors.black
-                  ),
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
                 ),
               ],
             ),
@@ -56,16 +62,13 @@ class _ProfileApplicantState extends State<ProfileApplicant> {
             SizedBox(
               height: 5,
             ),
-            Text('Pan Number',
-              style: TextStyle(
-                fontSize: 20
-              ),
+            Text(
+              'Pan Number',
+              style: TextStyle(fontSize: 20),
             ),
             SizedBox(
               height: 15,
             ),
-
-            
             Text(
               'Adhar Details :',
               style: TextStyle(
@@ -76,15 +79,13 @@ class _ProfileApplicantState extends State<ProfileApplicant> {
             SizedBox(
               height: 5,
             ),
-            Text('Adhar Number',
-              style: TextStyle(
-                fontSize: 20
-              ),
+            Text(
+              'Adhar Number',
+              style: TextStyle(fontSize: 20),
             ),
             SizedBox(
               height: 15,
             ),
-
             Text(
               'Address :',
               style: TextStyle(
@@ -95,16 +96,13 @@ class _ProfileApplicantState extends State<ProfileApplicant> {
             SizedBox(
               height: 5,
             ),
-            Text('Entire Address along with State and City.',
-              style: TextStyle(
-                fontSize: 20
-              ),
+            Text(
+              'Entire Address along with State and City.',
+              style: TextStyle(fontSize: 20),
             ),
-
-             SizedBox(
+            SizedBox(
               height: 15,
             ),
-
             Text(
               'Email Address :',
               style: TextStyle(
@@ -115,10 +113,9 @@ class _ProfileApplicantState extends State<ProfileApplicant> {
             SizedBox(
               height: 5,
             ),
-            Text('Email',
-              style: TextStyle(
-                fontSize: 20
-              ),
+            Text(
+              'Email',
+              style: TextStyle(fontSize: 20),
             ),
           ],
         ),
