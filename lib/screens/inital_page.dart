@@ -1,3 +1,5 @@
+import 'package:codefuryapp/Employee/Screens/HomeScreen/home.dart';
+import 'package:codefuryapp/Employers/home_screens.dart';
 import 'package:codefuryapp/Service/authentication.dart';
 import 'package:codefuryapp/Service/providers/custom_user.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -43,7 +45,7 @@ class _InitialStateState extends State<InitialState> {
                     theme: ThemeData(
                       primaryColor: Color(0xFF00ff7f),
                     ),
-                    home: InitialPage(),
+                    home: Home(),
                   );
                 },
               )

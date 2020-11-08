@@ -67,7 +67,7 @@ class _StatusofApplicationState extends State<StatusofApplication> {
                 child: Text(
                   "Status",
                   style: TextStyle(fontSize: 27),
-                )),
+                )), 
           ],
         ),
       ),
